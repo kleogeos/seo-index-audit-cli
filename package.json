@@ -1,0 +1,13 @@
+{
+  "name": "seo-index-audit-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that audits a site's robots.txt, sitemap.xml and homepage meta robots tag for issues that block search engine crawling and indexing (Google, Baidu, Bing), with plain-English explanations.",
+  "main": "src/auditor.js",
+  "bin": {
+    "seo-index-audit-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
